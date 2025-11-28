@@ -2,8 +2,9 @@
 
 This project provides a web-based interactive map interface for visualizing and testing public iPerf3 servers. It automatically fetches a list of [public iperf3 servers](https://github.com/R0GGER/public-iperf3-servers), determines their geographic locations, and allows you to run iPerf3 speed tests directly from your browser.
 
-<img src="screenshots/1.png" alt="iPerf3 Server Map" width="400" />  <img src="screenshots/2.png" alt="iPerf3 Server Map" width="400" />
+This project is sponsored and supported by <a href="https://cloud.hosthatch.com/a/772" target="_blank">HostHatch</a> and <a href="https://censys.com" target="_blank">Censys</a>.
 
+<img src="screenshots/1.png" alt="iPerf3 Server Map" width="400" />  <img src="screenshots/2.png" alt="iPerf3 Server Map" width="400" />
 
 - **Interactive Map & Testing**: Visualizes iPerf3 servers on a global map using Leaflet.js, allowing you to initiate speed tests directly from the map markers.
 - **Automatic Geocoding**: resolving server locations (City/Country) to coordinates using `geonamescache` (offline) and OpenStreetMap's Nominatim (online fallback).
