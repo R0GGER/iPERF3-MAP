@@ -19,7 +19,7 @@ Create a `docker-compose.yml` file with the following content:
 ```yaml
 services:
   iperf3-map:
-    image: r0gger/iperf3-map
+    image: ghcr.io/r0gger/iperf3-map
     container_name: iperf3-map
     ports:
       - "5000:5000"
@@ -40,8 +40,9 @@ docker run -d \
   --name iperf3-map \
   -p 5000:5000 \
   --restart unless-stopped \
-  r0gger/iperf3-map
+  ghcr.io/r0gger/iperf3-map
 ```
+Open your browser and navigate to `http://localhost:5000`.
 
 ## Build and run 
 1. **Clone the repository:**
