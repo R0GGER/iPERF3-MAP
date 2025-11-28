@@ -19,7 +19,7 @@ This project provides a web-based interactive map interface for visualizing and 
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/R0GGER/iPERF3-MAP.git
    cd iperf3-map
    ```
 
